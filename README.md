@@ -1,9 +1,9 @@
 ## Hi there 👋
 
-Welcome to my portfolio repository! Below is a link you can share so others can see the project.
+Welcome to my portfolio repository! Below is the live public site you can share so others can see the project.
 
 ### Public portfolio
-- Public link: https://github.com/work-with-boorvaja/work-with-boorvaja
+- Public link: https://work-with-boorvaja.github.io/work-with-boorvaja/
 
 ### Show my portfolio to others
 - Portfolio on GitHub: https://github.com/work-with-boorvaja/work-with-boorvaja
