@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Personal Portfolio</title>
+    <!-- Google font for a softer rounded typographic feel -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header class="site-header">
+      <div class="container nav-container">
+        <a class="logo" href="#home">boorvaja.e</a>
+        <nav id="navbar" class="nav">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#resume" class="nav-link">Resume</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-intro">
+            <h1 class="hero-title">Hi, I'm <span class="accent">Boorvaja</span></h1>
+            <p class="hero-sub">Designer and AI/ML creator crafting elegant, user-first digital experiences.</p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary sparkle-btn">View Projects</a>
+              <a href="resume.pdf" download class="btn btn-outline">Download Resume</a>
+            </div>
+            <div class="hero-social">
+              <a href="https://www.linkedin.com/in/boorvaja" aria-label="LinkedIn" class="icon-link social-chip" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor" class="icon"> <path d="M4.98 3.5C4.98 4.88 3.9 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.24 8h4.52V24H.24zM8.59 8h4.34v2.2h.06c.6-1.1 2.07-2.2 4.27-2.2 4.57 0 5.42 3 5.42 6.88V24h-4.52v-7.6c0-1.82 0-4.16-2.53-4.16-2.53 0-2.92 1.98-2.92 4.03V24H8.59z"/></svg>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://github.com/work-with-boorvaja" aria-label="GitHub" class="icon-link social-chip" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor" class="icon"> <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.37 7.86 10.88.57.1.78-.25.78-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.3-1.27-1.65-1.27-1.65-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.74 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.56-.29-5.26-1.28-5.26-5.71 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.07 0 0 .96-.31 3.15 1.18a10.9 10.9 0 012.87-.39c.97 0 1.95.13 2.87.39 2.18-1.5 3.14-1.18 3.14-1.18.63 1.6.24 2.78.12 3.07.74.81 1.17 1.84 1.17 3.1 0 4.44-2.7 5.42-5.28 5.7.41.36.78 1.08.78 2.18 0 1.57-.01 2.83-.01 3.21 0 .31.2.67.79.56A11.5 11.5 0 0023.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+                <span>GitHub</span>
+              </a>
+              <a href="#" aria-label="Instagram" class="icon-link social-chip">
+                <svg viewBox="0 0 24 24" fill="currentColor" class="icon"> <path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm0 2a3 3 0 00-3 3v10a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H7zm5 3a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zM18 6.5a1 1 0 110 2 1 1 0 010-2z"/></svg>
+                <span>Instagram</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-photo" aria-hidden="true">
+            <div class="photo-ring">
+              <img class="hero-image" src="WhatsApp Image 2026-06-24 at 3.10.15 PM.jpeg" alt="Boorvaja portfolio hero image" />
+            </div>
+          </div>
+        </div>
+        <div class="hero-decor">
+          <span class="floating-deco deco-star"></span>
+          <span class="floating-deco deco-cloud"></span>
+          <span class="floating-deco deco-sparkle"></span>
+          <span class="floating-deco deco-star-sm"></span>
+          <span class="floating-deco deco-cloud-sm"></span>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>I am a software developer with a focus on web technologies, accessibility, and performance. I enjoy building interfaces that are both beautiful and useful.</p>
+              <h3>Education</h3>
+              <ul>
+                <li><strong>AIML</strong>, 2025–2029</li>
+              </ul>
+            </div>
+            <div class="about-details">
+              <div class="stat">
+                <h4>20+</h4>
+                <p>Projects Delivered</p>
+              </div>
+              <div class="stat">
+                <h4>Open</h4>
+                <p>To work opportunities</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-grid">
+            <!-- Each skill contains a label and an animated progress bar -->
+            <div class="skill">
+              <div class="skill-head"><span>HTML</span><span>95%</span></div>
+              <div class="progress"><div class="progress-bar" data-value="95"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-head"><span>CSS</span><span>92%</span></div>
+              <div class="progress"><div class="progress-bar" data-value="92"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-head"><span>JavaScript</span><span>88%</span></div>
+              <div class="progress"><div class="progress-bar" data-value="88"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-head"><span>Python</span><span>85%</span></div>
+              <div class="progress"><div class="progress-bar" data-value="85"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-head"><span>Java</span><span>80%</span></div>
+              <div class="progress"><div class="progress-bar" data-value="80"></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="projects-grid">
+            <!-- Example project cards; replace with real projects -->
+            <article class="card project-card">
+              <div class="card-media project-1" aria-hidden="true"></div>
+              <div class="card-body">
+                <h3 class="card-title">AI Resume Analyzer</h3>
+                <p class="card-desc">Helping creators find their perfect path using a dash of AI magic.</p>
+                <div class="tech-list"><span>Python</span><span>TensorFlow</span><span>Flask</span></div>
+                <div class="card-actions">
+                  <a href="#" class="btn btn-sm" target="_blank" rel="noopener">Live</a>
+                  <a href="#" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <div class="card-media project-2" aria-hidden="true"></div>
+              <div class="card-body">
+                <h3 class="card-title">Visual Chatbot Studio</h3>
+                <p class="card-desc">A polished UI for conversational experiences, built with reusable components and smart interactions.</p>
+                <div class="tech-list"><span>React</span><span>Node.js</span><span>OpenAI</span></div>
+                <div class="card-actions">
+                  <a href="#" class="btn btn-sm" target="_blank" rel="noopener">Live</a>
+                  <a href="#" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <div class="card-media project-3" aria-hidden="true"></div>
+              <div class="card-body">
+                <h3 class="card-title">Portfolio Builder</h3>
+                <p class="card-desc">A generative portfolio builder designed for creators who want fast, beautiful launch experiences.</p>
+                <div class="tech-list"><span>JavaScript</span><span>Tailwind</span><span>Figma</span></div>
+                <div class="card-actions">
+                  <a href="#" class="btn btn-sm" target="_blank" rel="noopener">Live</a>
+                  <a href="#" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Resume Section (download anchor for clarity) -->
+      <section id="resume" class="section">
+        <div class="container">
+          <h2 class="section-title">Resume</h2>
+          <p>Download a PDF version of my resume for full work history and skills.</p>
+          <a href="resume.pdf" download class="btn btn-primary">Download Resume</a>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section">
+        <div class="container contact-grid">
+          <div>
+            <h2 class="section-title">Contact</h2>
+            <p>I'd love to hear about your project. Fill out the form and I'll get back to you shortly.</p>
+
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="field">
+                <input id="name" name="name" type="text" required value="boorvaja" placeholder=" " autocomplete="name" />
+                <label for="name">Name</label>
+              </div>
+
+              <div class="field">
+                <input id="email" name="email" type="email" required value="boorvaja22@gmail.com" placeholder=" " autocomplete="email" />
+                <label for="email">Email</label>
+              </div>
+
+              <div class="field field-textarea">
+                <textarea id="message" name="message" rows="6" required placeholder=" "></textarea>
+                <label for="message">Message</label>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit">Send a hello! 💬</button>
+              <p id="form-status" class="form-status" aria-live="polite"></p>
+            </form>
+          </div>
+
+          <aside class="contact-aside">
+            <h3>Get in touch</h3>
+            <p class="contact-line"><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 5.75A2.75 2.75 0 014.75 3h14.5A2.75 2.75 0 0122 5.75v12.5A2.75 2.75 0 0119.25 21H4.75A2.75 2.75 0 012 18.25V5.75zm2.1-.16L12 11.3l7.9-5.71H4.1zm15.4 1.4L14.4 11.43 19 16.58V6.99zm-1.5 11.05L12 13.7 6.1 18.04a1.25 1.25 0 001.1.71h9.6c.28 0 .54-.1.74-.28zm-14.4-2.43L9.6 11.43 3 6.99v8.12z"/></svg></span>Email: <a href="mailto:boorvaja22@gmail.com">boorvaja22@gmail.com</a></p>
+            <p class="contact-line"><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 6 11 7 12 1-.9 7-6.75 7-12 0-3.87-3.13-7-7-7zm0 16.98C10.57 16.78 7 12.75 7 9a5 5 0 0110 0c0 3.75-3.57 7.78-5 9.98zM12 11.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z"/></svg></span>Location: Thoothukudi, India</p>
+            <div class="social-vertical contact-social">
+              <a href="https://www.linkedin.com/in/boorvaja" aria-label="LinkedIn" class="icon-link social-chip" target="_blank" rel="noopener" title="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor" class="icon"> <path d="M4.98 3.5C4.98 4.88 3.9 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.24 8h4.52V24H.24zM8.59 8h4.34v2.2h.06c.6-1.1 2.07-2.2 4.27-2.2 4.57 0 5.42 3 5.42 6.88V24h-4.52v-7.6c0-1.82 0-4.16-2.53-4.16-2.53 0-2.92 1.98-2.92 4.03V24H8.59z"/></svg>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://github.com/work-with-boorvaja" aria-label="GitHub" class="icon-link social-chip" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="currentColor" class="icon"> <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.37 7.86 10.88.57.1.78-.25.78-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.3-1.27-1.65-1.27-1.65-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.74 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.56-.29-5.26-1.28-5.26-5.71 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.07 0 0 .96-.31 3.15 1.18a10.9 10.9 0 012.87-.39c.97 0 1.95.13 2.87.39 2.18-1.5 3.14-1.18 3.14-1.18.63 1.6.24 2.78.12 3.07.74.81 1.17 1.84 1.17 3.1 0 4.44-2.7 5.42-5.28 5.7.41.36.78 1.08.78 2.18 0 1.57-.01 2.83-.01 3.21 0 .31.2.67.79.56A11.5 11.5 0 0023.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+                <span>GitHub</span>
+              </a>
+              <a href="#" aria-label="Instagram" class="icon-link social-chip">
+                <svg viewBox="0 0 24 24" fill="currentColor" class="icon"> <path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm0 2a3 3 0 00-3 3v10a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H7zm5 3a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zM18 6.5a1 1 0 110 2 1 1 0 010-2z"/></svg>
+                <span>Instagram</span>
+              </a>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> boorvaja.e. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
