@@ -1,5 +1,13 @@
 ## Hi there 👋
 
+Welcome to my portfolio repository! Below is a link you can share so others can see the project.
+
+### Public portfolio
+- Public link: https://github.com/work-with-boorvaja/work-with-boorvaja
+
+### Show my portfolio to others
+- Portfolio on GitHub: https://github.com/work-with-boorvaja/work-with-boorvaja
+
 <!--
 **work-with-boorvaja/work-with-boorvaja** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
